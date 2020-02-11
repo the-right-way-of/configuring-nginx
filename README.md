@@ -22,6 +22,9 @@ Try to pass `X-*` headers and see if they work. `X-Forwarded-For`, `X-Forwarded-
 Always utilize `upstream`, you can thank me later.
 Utilize `keepalive` and `proxy_http_version` combination for extreme performances servers using HTTP1.1 and above. They don't make/break connections much.
 
+#### What if nginx is in the middle of a reverse proxy and a server?
+TBD
+
 ### Gzipping?
 
 Bad idea where you have bandwidth available. Gzipping is good where internet connection of your peers is limited.
